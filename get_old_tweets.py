@@ -45,7 +45,7 @@ if (not api):
 
 tweetsPerQry = 100
 sinceId = None
-max_id = 1258071784722743301
+max_id = 1256735220293791744
 
 
 while(1):
