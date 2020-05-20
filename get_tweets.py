@@ -6,9 +6,9 @@ import tweepy
 # !pip install python-twitter
 import twitter
 import csv
-# from kaggle_secrets import UserSecretsClient
 from os import path
 import config
+from datetime import date, timedelta
 
 ACCESS_TOKEN = config.ACCESS_TOKEN
 ACCESS_SECRET = config.ACCESS_SECRET
@@ -16,40 +16,54 @@ CONSUMER_KEY = config.CONSUMER_KEY
 CONSUMER_SECRET = config.CONSUMER_SECRET
 
 
-def connectOAuth():
-    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-    auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
-    api = tweepy.API(auth)
+def connectAuth():
+    auth = tweepy.AppAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+    api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
     return api
 
 def extractIds(tweet_object):
     tweet_list =[]
     for tweet in tweet_object:
-        id = tweet.id_str
-        tweet_list.append({'id':id})
-    df = pd.DataFrame(tweet_list, columns=['id'])
+        id = tweet.id
+        created_at = tweet.created_at
+        tweet_list.append({'id':id, 'created_at':created_at})
+    df = pd.DataFrame(tweet_list, columns=['id', 'created_at'])
     return df
 
-# List of hashtags to track
 hashtags = ["#coronavirus", "#coronavirusoutbreak", "#coronavirusPandemic", "#covid19", "#covid_19", "#epitwitter", "#ihavecorona"]
-
-# Building the search query
 query = (" OR ").join(hashtags) + " -filter:retweets"
 
-id_high = 1261836344239755264 # Seed id to start searching for tweets after this id(useful for the case when you have to resume getting tweets from a specific id
+# 99999999999999999999
+max_id = 99999999999999999999
 
-api = connectOAuth()
-# This script runs 24*7 without using much of the system resources
+
+# This script was scheduled to run daily, so the filenames to be processed was yesterday's date
+# today = date.today().strftime("%Y-%m-%d")
+yesterday = (date.today() - timedelta(days = 1)).strftime("%Y-%m-%d")
+
+filename = (date.today() - timedelta(days = 1)).strftime("%m-%d-%Y")
+
+api = connectAuth()
+df = pd.DataFrame(columns = ['id', 'created_at'])
 
 while(1):
-    
-    search_results = api.search(q = query, count = 100, lang = 'en', since_id = str(id_high))
-    tweets_df = extractIds(search_results)
-    
-    if(path.exists('tweets.csv')):
-        tweets_df.to_csv('tweets.csv', mode = 'a', index=False, header=None)
-    else:
-        tweets_df.to_csv('tweets.csv', mode = 'a', index=False)
-    if(not tweets_df.empty):
-        id_high = max(tweets_df['id']) # Updating the seed id from which to start searching in the next iteration 
-    time.sleep(12)
+    try:
+        new_tweets = api.search(q = query, count = 100, max_id = str(max_id - 1), lang = 'en')
+        
+        if not new_tweets:
+            print("No more tweets found")
+            break
+        tweets_df = extractIds(new_tweets)
+        print(tweets_df.head())
+        print()
+        df = df.append(tweets_df)
+        
+        max_id = tweets_df.iloc[-1].id
+        if tweets_df.iloc[-1].created_at < pd.to_datetime(yesterday + ' 00:00:00'):
+            print("Tweet extraction complete!")
+            df.sort_values(by = ['id']).to_csv('./data/' + filename + '.csv')
+            break
+        
+    except tweepy.TweepError as e:
+        print("Tweepy error! : " + str(e))
+        break
