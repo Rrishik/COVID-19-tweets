@@ -9,7 +9,7 @@ from datetime import date, timedelta
 filename = (date.today() - timedelta(days = 1)).strftime("%m-%d-%Y")
 
 # Main directory which contails the ids folder and the full data folder
-main_dir = './'
+main_dir = '/home/vca_rishik/rishik/COVID-19-tweets/'
 ids_dir = main_dir + 'data/'
 # Make sure you create this folder in the main directory before running this script
 target_dir = main_dir + 'data_full/'
