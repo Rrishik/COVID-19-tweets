@@ -41,7 +41,7 @@ hashtags = ["#coronavirus", "#coronavirusoutbreak", "#coronavirusPandemic", "#co
 query = (" OR ").join(hashtags) + " -filter:retweets"
 
 # 99999999999999999999
-max_id = 99999999999999999999
+max_id = 1263620612557242369
 
 
 # This script was scheduled to run daily, so the filenames to be processed was yesterday's date
