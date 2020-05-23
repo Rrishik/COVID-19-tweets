@@ -29,4 +29,4 @@ for tweet in t.hydrate(tweet_ids.id.drop_duplicates()):
     tweet_objects.append(tweet)
     
 df_full = pd.DataFrame(tweet_objects, columns = ['created_at', 'id', 'id_str', 'full_text', 'truncated', 'display_text_range', 'entities', 'source', 'in_reply_to_status_id', 'in_reply_to_status_id_str', 'in_reply_to_user_id', 'in_reply_to_user_id_str', 'in_reply_to_screen_name', 'user', 'geo', 'coordinates', 'place', 'contributors', 'is_quote_status', 'retweet_count', 'favorite_count', 'favorited', 'retweeted', 'possibly_sensitive', 'lang'])
-df_full.dropna(subset = ['id']).to_csv(target_dir + filename + '_full.csv', index = None)
+df_full.to_csv(target_dir + filename + '_full.csv', index = None)
