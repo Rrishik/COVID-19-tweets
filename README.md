@@ -12,17 +12,16 @@ hashtags = ["#coronavirus", "#coronavirusoutbreak", "#coronavirusPandemic", "#co
 query = (" OR ").join(hashtags) + " -filter:retweets"
 ```
 
-### 1.1 Cleaning
-
-The data cleaning is necessary for large scale data collection systems. The cleaning of the data here implies the dropping of NaN values in the rows, removing invalid or malformed rows from the collected data. These scripts are also scheduled to run daily after the extraction of yesterday's tweets have been completed.
-
 ## 2. Statsistical and Sentimental analysis of the tweets
 
 ### 2.1 Statistical Ananlysis
 
 * Temporal frequency of tweets- The frequency of tweets related to COVID-19 per hour of each day
+
 * Spatial frequency of tweets- The map of the tweet counts countrywise
+
 * Term frequency of tweets- The analysis of the words related to COVID-19 based on their occurences in the tweets
+
 * Worclouds of the words- Words associated to COVID-19 mapped on a wordcloud after cleaning and processing the tweets
 
 ### 2.2 Sentiment Analysis
@@ -40,13 +39,14 @@ The data cleaning is necessary for large scale data collection systems. The clea
 ### 3.1 Analysing Hashtags
 
 * Detecting other hashtags related to COVID-19- Finding other popular hashtags associated to COVID-19
+
 * Correlations of the hashtags- Finding the correlations between the pairs of the popular hashtags associated to COVID-19. This can help up analysing the topics in trend associated to COVID-19
 
 ### 3.2 Topic Modeling
 
 * Model topics- Find out about the topics related to COVID-19 from two popular methods:
-** Latent Dirichlet Allocation
-** Negative Matrix Factorization
+  * Latent Dirichlet Allocation
+  * Negative Matrix Factorization
 
 # Implementation details and mechanism
 
@@ -56,7 +56,33 @@ Python has a number of libraries for accessing twitter data. Here I've used [Twe
 
 ## 2. Data Cleaning
 
-### 2.1 
+### 2.1 Cleaning the data files
+
+The cleaning of the data here implies the dropping of NaN values in the rows, removing invalid or malformed rows from the collected data, dropping duplicated rows and sorting them. These [scripts](clean_data.py) are also scheduled to run daily after the extraction of yesterday's tweets have been completed.
+
+### 2.2 Cleaning Tweet Text
+
+I have used some basic standard cleaning for tweets like:
+- Stripping the URLs
+- Stripping out hashtags
+- Stripping out user mentions
+- Sripping out media and symbols
+- Removing numbers
+- Removing punctuations
+- Removing stopwords(Including the words and hashtags used for monitoring tweets from twitter)
+- Stemming: Used nltk's Lancaster Stemmer for stemming the words
+
+Also since a filter is added in the search query to remove the retweets, we do not have the tweets which were retweeted. But each tweet object contains a field: *retweet_count*. So using this value I have multiplied the tweets with their respective *retweet_count + 1* so as to make up for the retweets lost.
+
+## 3. Implementation details
+
+### 3.1 Getting the location data from tweets
+
+Although twitter provides the feature to add location details to the tweets, roughly only 1% of the people opt in for location tracking by twitter or manually add location for the tweets. So getting the data direcly from the tweet data is a difficult task. So to ovecome this, we can use the user details for each tweet which contains the users location data he put in while registering for twitter. Although this might not be too precise, but we can narrow it down to atleast the country. [This paper](https://www.aaai.org/ocs/index.php/WS/AAAIW13/paper/view/7085) talks about such a work. I'm using thier code to extract the geolocation information from the tweet objects.
+
+### 3.2 Sentiment Analyser
+
+For getting the 
 
 
 ## Built With
