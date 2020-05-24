@@ -49,15 +49,13 @@ query = (" OR ").join(hashtags) + " -filter:retweets"
 ![hashtags freq](outputs/hashtags_freq.png)
 
 * Correlations of the hashtags- Finding the correlations between the pairs of the popular hashtags associated to COVID-19. This can help up analysing the topics in trend associated to COVID-19
-![hashtags correlation](outputs/hashtags_correlation.png)
+![hashtags correlation](outputs/correlation.png)
 
 ### 3.2 Topic Modeling
 
 * Model topics- Find out about the topics related to COVID-19 from two popular methods:
-  * Latent Dirichlet Allocation
-  ![LDA](outputs/LDA_topics.csv)
-  * Negative Matrix Factorization
-  ![NMF](outputs/NMF_topics.csv)
+  * Latent Dirichlet Allocation[LDA](outputs/LDA_topics.csv)
+  * Negative Matrix Factorization[NMF](outputs/NMF_topics.csv)
 
 # Implementation details and mechanism
 
