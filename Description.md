@@ -20,34 +20,44 @@ query = (" OR ").join(hashtags) + " -filter:retweets"
 ![Temporal frequency of tweets](outputs/temporal_tweet_freq.png)
 
 * Spatial frequency of tweets- The map of the tweet counts countrywise
+![Spatial frequency of tweets](outputs/country_tweet_freq.png)
 
 * Term frequency of tweets- The analysis of the words related to COVID-19 based on their occurences in the tweets
+![Term frequency](outputs/wordcount_bar.png)
 
 * Worclouds of the words- Words associated to COVID-19 mapped on a wordcloud after cleaning and processing the tweets
+![Wordcloud](outputs/wordcloud.png)
 
 ### 2.2 Sentiment Analysis
 
 * Analysing sentiments of tweets- Calculating the sentiment polarities of each tweet and analysing their counts of positive, negative and neutral sentiments
+![Sentiment count](outputs/sentiment.png)
 
 * Temporal analysis of the sentiments- Analysing the rise and fall of tweet sentiments over time which can help in analysing the situations for a given time
+![Temporal Sentiments](outputs/temporal_sentiments.png)
 
 * Spatial plot of the sentiments- Using the location data extracted from the tweets, the tweets are grouped countrywise and the mean sentiment polarity of the tweets from the country are plotted. This data can be helpful is scenarios when a drop in the mean sentiment scores of the country is detected which can imply an urgent attention or a problem coming up in that country.
+![Spatial plot of sentiments(outputs/country_mean_sent.png)
 
 * Analysing the words associated to the sentiments- Word clouds of the words associated to the positive, nagative and neutral sentiments may give us an insight of the contents of the tweets
-
+![Joint cloud](outputs/joint_cloud.png)
 ## 3. Topic Analysis
 
 ### 3.1 Analysing Hashtags
 
 * Detecting other hashtags related to COVID-19- Finding other popular hashtags associated to COVID-19
+![hashtags freq](outputs/hashtags_freq.png)
 
 * Correlations of the hashtags- Finding the correlations between the pairs of the popular hashtags associated to COVID-19. This can help up analysing the topics in trend associated to COVID-19
+![hashtags correlation](outputs/hashtags_correlation.png)
 
 ### 3.2 Topic Modeling
 
 * Model topics- Find out about the topics related to COVID-19 from two popular methods:
   * Latent Dirichlet Allocation
+  ![LDA](outputs/LDA_topics.csv)
   * Negative Matrix Factorization
+  ![NMF](outputs/NMF_topics.csv)
 
 # Implementation details and mechanism
 
@@ -101,3 +111,6 @@ To Vectorize the tweet text, sklearn's [CountVetorizer](https://scikit-learn.org
 ### 3.5 Modeling Topics
 
 Two of the most popular methods for analysing topics LDA and NMF have been used for picking topics from the tweets
+
+### 4. On going work:
+#### Creating a word network for 
