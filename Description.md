@@ -37,7 +37,7 @@ query = (" OR ").join(hashtags) + " -filter:retweets"
 ![Temporal Sentiments](outputs/temporal_sentiments.png)
 
 * Spatial plot of the sentiments- Using the location data extracted from the tweets, the tweets are grouped countrywise and the mean sentiment polarity of the tweets from the country are plotted. This data can be helpful is scenarios when a drop in the mean sentiment scores of the country is detected which can imply an urgent attention or a problem coming up in that country.
-![Spatial plot of sentiments(outputs/country_mean_sent.png)
+![Spatial plot of sentiments](outputs/country_mean_sent.png)
 
 * Analysing the words associated to the sentiments- Word clouds of the words associated to the positive, nagative and neutral sentiments may give us an insight of the contents of the tweets
 ![Joint cloud](outputs/joint_cloud.png)
