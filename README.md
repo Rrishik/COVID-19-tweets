@@ -17,7 +17,7 @@ query = (" OR ").join(hashtags) + " -filter:retweets"
 ### 2.1 Statistical Ananlysis
 
 * Temporal frequency of tweets- The frequency of tweets related to COVID-19 per hour of each day
-![Temporal frequency of tweets](ouputs/temporal_tweet_freq.png)
+![Temporal frequency of tweets](outputs/temporal_tweet_freq.png)
 
 * Spatial frequency of tweets- The map of the tweet counts countrywise
 
