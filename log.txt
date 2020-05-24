@@ -210,11 +210,24 @@ Reading... 05-21-2020_full.csv
 ()
 Reading... 05-22-2020_full.csv
 ()
-('Original length: ', 100)
-('Length after dropping NaNs: ', 100)
-('Length after dropping duplicates: ', 100)
+('Original length: ', 113996)
+('Length after dropping NaNs: ', 113996)
+('Length after dropping duplicates: ', 113996)
 05-22-2020_full.csv .. already clean!
 ()
 05-22-2020_full.csv ..done!
+()
+()
+Reading... 05-23-2020_full.csv
+()
+('Original length: ', 180105)
+('Length after dropping NaNs: ', 99802)
+('Length after dropping duplicates: ', 85037)
+False
+False
+('Invalid rows(dropped!): ', 2)
+('Final length of csv: ', 85035)
+()
+05-23-2020_full.csv ..done!
 ()
 ()
