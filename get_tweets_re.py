@@ -7,7 +7,7 @@ import tweepy
 import twitter
 import csv
 from os import path
-import config2 as config
+import config
 from datetime import date, timedelta
 
 ACCESS_TOKEN = config.ACCESS_TOKEN
@@ -37,11 +37,11 @@ def extractIds(tweet_object):
     df = pd.DataFrame(tweet_list, columns=['id', 'created_at'])
     return df
 
-hashtags = ["#coronavirus", "#coronavirusoutbreak", "#coronavirusPandemic", "#covid19", "#covid_19", "#epitwitter", "#ihavecorona", "#pandemic", "#covid__19"]
-query = (" OR ").join(hashtags) + " -filter:retweets"
+hashtags = ["#coronavirus", "#coronavirusoutbreak", "#coronavirusPandemic", "#covid19", "#covid_19", "#epitwitter", "#ihavecorona", '#pandemic', "#covid__19"]
+query = (" OR ").join(hashtags)
 
 # 99999999999999999999
-max_id = 99999999999999999999
+max_id = 1266157306728853504
 
 
 # This script was scheduled to run daily, so the filenames to be processed was yesterday's date
@@ -52,7 +52,6 @@ filename = (date.today() - timedelta(days = 1)).strftime("%m-%d-%Y")
 
 api = connectAuth()
 
-id_df = pd.DataFrame(columns = ['id', 'created_at'])
 full_df = pd.DataFrame(columns = ['created_at', 'id', 'id_str', 'full_text', 'truncated', 'display_text_range', 'entities', 'source', 'in_reply_to_status_id', 'in_reply_to_status_id_str', 'in_reply_to_user_id', 'in_reply_to_user_id_str', 'in_reply_to_screen_name', 'user', 'geo', 'coordinates', 'place', 'contributors', 'is_quote_status', 'retweet_count', 'favorite_count', 'favorited', 'retweeted', 'possibly_sensitive', 'lang'])
 
 while(1):
@@ -64,20 +63,18 @@ while(1):
             break
         
         new_full_df = extractTweet(new_tweets)
-        new_id_df = extractIds(new_tweets)
-        print(new_id_df.head())
+        print(new_full_df.iloc[0])
         print()
-        id_df = id_df.append(new_id_df)
         full_df = full_df.append(new_full_df)
         
         max_id = new_full_df.iloc[-1].id
         
-        if new_id_df.iloc[-1].created_at < pd.to_datetime(yesterday + ' 00:00:00'):
+        if pd.to_datetime(pd.to_datetime(new_full_df.iloc[-1].created_at).strftime("%Y-%m-%d %H:%M:%S")) < pd.to_datetime(yesterday + ' 00:00:00'):
             print("Tweet extraction complete!")
             print("Saving data. . .")
-            id_df.sort_values(by = ['id']).to_csv(main_dir + 'data/' + filename + '.csv', index = None)
-            full_df.to_csv(main_dir + 'data_full/' + filename + '_full.csv', index = None)
+            full_df.to_csv(main_dir + 'data_retweets/' + filename + '.csv', index = None)
             break
+#         time.sleep(5)
         
     except tweepy.TweepError as e:
         print("Tweepy error! : " + str(e))

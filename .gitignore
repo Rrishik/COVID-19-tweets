@@ -1,0 +1,10 @@
+__pycache__/
+config.py
+config2.py
+data/
+data_full/
+.ipynb_checkpoints/
+country_data/
+outputs/
+data_retweets/
+log*
