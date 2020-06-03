@@ -41,7 +41,7 @@ hashtags = ["#coronavirus", "#coronavirusoutbreak", "#coronavirusPandemic", "#co
 query = (" OR ").join(hashtags)
 
 # 99999999999999999999
-max_id = 1267244468509573121
+max_id = 1267606856450691072
 
 
 # This script was scheduled to run daily, so the filenames to be processed was yesterday's date
