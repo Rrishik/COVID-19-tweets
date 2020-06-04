@@ -1,2 +1,190 @@
-Reading... .ipynb_checkpoints
+Reading... 05-20-2020.csv
+()
+('Original length: ', 618997)
+('Length after dropping NaNs: ', 618997)
+('Length after dropping duplicates: ', 618997)
+05-20-2020.csv .. already clean!
+()
+05-20-2020.csv ..done!
+()
+()
+Reading... 05-21-2020.csv
+()
+('Original length: ', 578771)
+('Length after dropping NaNs: ', 578771)
+('Length after dropping duplicates: ', 578771)
+05-21-2020.csv .. already clean!
+()
+05-21-2020.csv ..done!
+()
+()
+Reading... 05-22-2020.csv
+()
+('Original length: ', 551356)
+('Length after dropping NaNs: ', 551356)
+('Length after dropping duplicates: ', 551356)
+05-22-2020.csv .. already clean!
+()
+05-22-2020.csv ..done!
+()
+()
+Reading... 05-23-2020.csv
+()
+('Original length: ', 408986)
+('Length after dropping NaNs: ', 408986)
+('Length after dropping duplicates: ', 408986)
+05-23-2020.csv .. already clean!
+()
+05-23-2020.csv ..done!
+()
+()
+Reading... 05-24-2020.csv
+()
+('Original length: ', 420865)
+('Length after dropping NaNs: ', 420865)
+('Length after dropping duplicates: ', 420865)
+05-24-2020.csv .. already clean!
+()
+05-24-2020.csv ..done!
+()
+()
+Reading... 05-25-2020.csv
+()
+('Original length: ', 468422)
+('Length after dropping NaNs: ', 468422)
+('Length after dropping duplicates: ', 468422)
+05-25-2020.csv .. already clean!
+()
+05-25-2020.csv ..done!
+()
+()
+Reading... 05-26-2020.csv
+()
+('Original length: ', 530600)
+('Length after dropping NaNs: ', 530600)
+('Length after dropping duplicates: ', 530599)
+05-26-2020.csv .. already clean!
+()
+05-26-2020.csv ..done!
+()
+()
+Reading... 05-27-2020.csv
+()
+('Original length: ', 509952)
+('Length after dropping NaNs: ', 509952)
+('Length after dropping duplicates: ', 509949)
+05-27-2020.csv .. already clean!
+()
+05-27-2020.csv ..done!
+()
+()
+Reading... 05-28-2020.csv
+()
+('Original length: ', 554402)
+('Length after dropping NaNs: ', 554402)
+('Length after dropping duplicates: ', 554402)
+05-28-2020.csv .. already clean!
+()
+05-28-2020.csv ..done!
+()
+()
+Reading... 05-29-2020.csv
+()
+('Original length: ', 472344)
+('Length after dropping NaNs: ', 472344)
+('Length after dropping duplicates: ', 472343)
+05-29-2020.csv .. already clean!
+()
+05-29-2020.csv ..done!
+()
+()
+Reading... 05-30-2020.csv
+()
+('Original length: ', 371213)
+('Length after dropping NaNs: ', 371213)
+('Length after dropping duplicates: ', 371213)
+05-30-2020.csv .. already clean!
+()
+05-30-2020.csv ..done!
+()
+()
+Reading... 05-31-2020.csv
+()
+('Original length: ', 330653)
+('Length after dropping NaNs: ', 330653)
+('Length after dropping duplicates: ', 330653)
+05-31-2020.csv .. already clean!
+()
+05-31-2020.csv ..done!
+()
+()
+Reading... 06-01-2020.csv
+()
+('Original length: ', 441611)
+('Length after dropping NaNs: ', 441611)
+('Length after dropping duplicates: ', 441611)
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+('Invalid rows(dropped!): ', 59)
+('Final length of csv: ', 441552)
+()
+06-01-2020.csv ..done!
+()
 ()
