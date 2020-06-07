@@ -41,7 +41,7 @@ hashtags = ["#coronavirus", "#coronavirusoutbreak", "#coronavirusPandemic", "#co
 query = (" OR ").join(hashtags)
 
 # 99999999999999999999
-max_id = 1268694020861108224
+max_id = 1269056407996780544
 
 
 # This script was scheduled to run daily, so the filenames to be processed was yesterday's date
@@ -73,6 +73,7 @@ while(1):
             print("Tweet extraction complete!")
             print("Saving data. . .")
             full_df.to_csv(main_dir + 'data_retweets/' + filename + '.csv', index = None)
+#             full_df['id'].to_csv(main_dir + 'data_retweets_ids/' + filename + '.csv', header = 'id', index = None)
             break
 #         time.sleep(5)
         

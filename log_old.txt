@@ -140,19 +140,24 @@ Reading... 06-02-2020.csv
 ()
 Reading... 06-03-2020.csv
 ()
-('Original length: ', 556431)
-('Length after dropping NaNs: ', 452025)
-('Length after dropping duplicates: ', 445923)
-False
-False
-False
-False
-False
-False
-False
-('Invalid rows(dropped!): ', 7)
-('Final length of csv: ', 445916)
+('Original length: ', 445916)
+('Length after dropping NaNs: ', 445916)
+('Length after dropping duplicates: ', 445916)
+06-03-2020.csv .. already clean!
 ()
 06-03-2020.csv ..done!
+()
+()
+Reading... 06-04-2020.csv
+()
+('Original length: ', 574678)
+('Length after dropping NaNs: ', 417102)
+('Length after dropping duplicates: ', 390599)
+False
+False
+('Invalid rows(dropped!): ', 2)
+('Final length of csv: ', 390597)
+()
+06-04-2020.csv ..done!
 ()
 ()

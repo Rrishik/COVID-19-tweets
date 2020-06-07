@@ -65,6 +65,9 @@ for file in sorted(retweet_files):
         a.to_csv(retweet_dir + file, index = None)
         print("Invalid rows(dropped!): ", len(b))
         print("Final length of csv: ", len(a))
+        
+        print("Saving ids for github. .  .")
+        a['id'].to_csv(main_dir + 'data_retweets_ids/' + file, header = 'id', index = None)
     else:
         print(file + " .. already clean!")
         
