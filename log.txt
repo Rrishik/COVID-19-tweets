@@ -160,18 +160,26 @@ Reading... 06-04-2020.csv
 ()
 Reading... 06-05-2020.csv
 ()
-('Original length: ', 497530)
-('Length after dropping NaNs: ', 411356)
-('Length after dropping duplicates: ', 390720)
-False
-False
-False
-False
-False
-('Invalid rows(dropped!): ', 5)
-('Final length of csv: ', 390715)
-Saving ids for github. .  .
+('Original length: ', 390715)
+('Length after dropping NaNs: ', 390715)
+('Length after dropping duplicates: ', 390715)
+06-05-2020.csv .. already clean!
 ()
 06-05-2020.csv ..done!
+()
+()
+Reading... 06-06-2020.csv
+()
+('Original length: ', 468056)
+('Length after dropping NaNs: ', 331681)
+('Length after dropping duplicates: ', 326379)
+False
+False
+False
+('Invalid rows(dropped!): ', 3)
+('Final length of csv: ', 326376)
+Saving ids for github. .  .
+()
+06-06-2020.csv ..done!
 ()
 ()
