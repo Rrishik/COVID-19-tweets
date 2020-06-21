@@ -148,33 +148,3 @@ Reading... 06-03-2020.csv
 06-03-2020.csv ..done!
 ()
 ()
-Reading... 06-04-2020.csv
-()
-('Original length: ', 390597)
-('Length after dropping NaNs: ', 390597)
-('Length after dropping duplicates: ', 390597)
-06-04-2020.csv .. already clean!
-()
-06-04-2020.csv ..done!
-()
-()
-Reading... 06-05-2020.csv
-()
-('Original length: ', 390715)
-('Length after dropping NaNs: ', 390715)
-('Length after dropping duplicates: ', 390715)
-06-05-2020.csv .. already clean!
-()
-06-05-2020.csv ..done!
-()
-()
-Reading... 06-06-2020.csv
-()
-('Original length: ', 326376)
-('Length after dropping NaNs: ', 326376)
-('Length after dropping duplicates: ', 326376)
-06-06-2020.csv .. already clean!
-()
-06-06-2020.csv ..done!
-()
-()

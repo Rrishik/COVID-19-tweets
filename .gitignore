@@ -1,8 +1,8 @@
 __pycache__/
 config.py
 config2.py
-data/
 data_full/
+data_ids/
 .ipynb_checkpoints/
 country_data/
 outputs/
