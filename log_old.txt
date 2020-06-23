@@ -1,490 +1,520 @@
 Reading... 05-01-2020.csv
-
-Original length:  174288
-Length after dropping NaNs:  174288
-Length after dropping duplicates:  174288
+()
+('Original length: ', 174288)
+('Length after dropping NaNs: ', 174288)
+('Length after dropping duplicates: ', 174288)
 05-01-2020.csv .. already clean!
-
+()
 05-01-2020.csv ..done!
-
-
+()
+()
 Reading... 05-02-2020.csv
-
-Original length:  113267
-Length after dropping NaNs:  113267
-Length after dropping duplicates:  113267
+()
+('Original length: ', 113267)
+('Length after dropping NaNs: ', 113267)
+('Length after dropping duplicates: ', 113267)
 05-02-2020.csv .. already clean!
-
+()
 05-02-2020.csv ..done!
-
-
+()
+()
 Reading... 05-03-2020.csv
-
-Original length:  104108
-Length after dropping NaNs:  104108
-Length after dropping duplicates:  104108
+()
+('Original length: ', 104108)
+('Length after dropping NaNs: ', 104108)
+('Length after dropping duplicates: ', 104108)
 05-03-2020.csv .. already clean!
-
+()
 05-03-2020.csv ..done!
-
-
+()
+()
 Reading... 05-04-2020.csv
-
-Original length:  162165
-Length after dropping NaNs:  162165
-Length after dropping duplicates:  162165
+()
+('Original length: ', 162165)
+('Length after dropping NaNs: ', 162165)
+('Length after dropping duplicates: ', 162165)
 05-04-2020.csv .. already clean!
-
+()
 05-04-2020.csv ..done!
-
-
+()
+()
 Reading... 05-05-2020.csv
-
-Original length:  179617
-Length after dropping NaNs:  179617
-Length after dropping duplicates:  179617
+()
+('Original length: ', 179617)
+('Length after dropping NaNs: ', 179617)
+('Length after dropping duplicates: ', 179617)
 05-05-2020.csv .. already clean!
-
+()
 05-05-2020.csv ..done!
-
-
+()
+()
 Reading... 05-06-2020.csv
-
-Original length:  191155
-Length after dropping NaNs:  191155
-Length after dropping duplicates:  191155
+()
+('Original length: ', 191155)
+('Length after dropping NaNs: ', 191155)
+('Length after dropping duplicates: ', 191155)
 05-06-2020.csv .. already clean!
-
+()
 05-06-2020.csv ..done!
-
-
+()
+()
 Reading... 05-07-2020.csv
-
-Original length:  189414
-Length after dropping NaNs:  189414
-Length after dropping duplicates:  189414
+()
+('Original length: ', 189414)
+('Length after dropping NaNs: ', 189414)
+('Length after dropping duplicates: ', 189414)
 05-07-2020.csv .. already clean!
-
+()
 05-07-2020.csv ..done!
-
-
+()
+()
 Reading... 05-08-2020.csv
-
-Original length:  175164
-Length after dropping NaNs:  175164
-Length after dropping duplicates:  175164
+()
+('Original length: ', 175164)
+('Length after dropping NaNs: ', 175164)
+('Length after dropping duplicates: ', 175164)
 05-08-2020.csv .. already clean!
-
+()
 05-08-2020.csv ..done!
-
-
+()
+()
 Reading... 05-09-2020.csv
-
-Original length:  131585
-Length after dropping NaNs:  131585
-Length after dropping duplicates:  131585
+()
+('Original length: ', 131585)
+('Length after dropping NaNs: ', 131585)
+('Length after dropping duplicates: ', 131585)
 05-09-2020.csv .. already clean!
-
+()
 05-09-2020.csv ..done!
-
-
+()
+()
 Reading... 05-10-2020.csv
-
-Original length:  142286
-Length after dropping NaNs:  142286
-Length after dropping duplicates:  142286
+()
+('Original length: ', 142286)
+('Length after dropping NaNs: ', 142286)
+('Length after dropping duplicates: ', 142286)
 05-10-2020.csv .. already clean!
-
+()
 05-10-2020.csv ..done!
-
-
+()
+()
 Reading... 05-11-2020.csv
-
-Original length:  184949
-Length after dropping NaNs:  184949
-Length after dropping duplicates:  184949
+()
+('Original length: ', 184949)
+('Length after dropping NaNs: ', 184949)
+('Length after dropping duplicates: ', 184949)
 05-11-2020.csv .. already clean!
-
+()
 05-11-2020.csv ..done!
-
-
+()
+()
 Reading... 05-12-2020.csv
-
-Original length:  181657
-Length after dropping NaNs:  181657
-Length after dropping duplicates:  181657
+()
+('Original length: ', 181657)
+('Length after dropping NaNs: ', 181657)
+('Length after dropping duplicates: ', 181657)
 05-12-2020.csv .. already clean!
-
+()
 05-12-2020.csv ..done!
-
-
+()
+()
 Reading... 05-13-2020.csv
-
-Original length:  159157
-Length after dropping NaNs:  159157
-Length after dropping duplicates:  159157
+()
+('Original length: ', 159157)
+('Length after dropping NaNs: ', 159157)
+('Length after dropping duplicates: ', 159157)
 05-13-2020.csv .. already clean!
-
+()
 05-13-2020.csv ..done!
-
-
+()
+()
 Reading... 05-14-2020.csv
-
-Original length:  170861
-Length after dropping NaNs:  170861
-Length after dropping duplicates:  170861
+()
+('Original length: ', 170861)
+('Length after dropping NaNs: ', 170861)
+('Length after dropping duplicates: ', 170861)
 05-14-2020.csv .. already clean!
-
+()
 05-14-2020.csv ..done!
-
-
+()
+()
 Reading... 05-15-2020.csv
-
-Original length:  163497
-Length after dropping NaNs:  163497
-Length after dropping duplicates:  163497
+()
+('Original length: ', 163497)
+('Length after dropping NaNs: ', 163497)
+('Length after dropping duplicates: ', 163497)
 05-15-2020.csv .. already clean!
-
+()
 05-15-2020.csv ..done!
-
-
+()
+()
 Reading... 05-16-2020.csv
-
-Original length:  106671
-Length after dropping NaNs:  106671
-Length after dropping duplicates:  106671
+()
+('Original length: ', 106671)
+('Length after dropping NaNs: ', 106671)
+('Length after dropping duplicates: ', 106671)
 05-16-2020.csv .. already clean!
-
+()
 05-16-2020.csv ..done!
-
-
+()
+()
 Reading... 05-17-2020.csv
-
-Original length:  95233
-Length after dropping NaNs:  95233
-Length after dropping duplicates:  95233
+()
+('Original length: ', 95233)
+('Length after dropping NaNs: ', 95233)
+('Length after dropping duplicates: ', 95233)
 05-17-2020.csv .. already clean!
-
+()
 05-17-2020.csv ..done!
-
-
+()
+()
 Reading... 05-18-2020.csv
-
-Original length:  163969
-Length after dropping NaNs:  163969
-Length after dropping duplicates:  163969
+()
+('Original length: ', 163969)
+('Length after dropping NaNs: ', 163969)
+('Length after dropping duplicates: ', 163969)
 05-18-2020.csv .. already clean!
-
+()
 05-18-2020.csv ..done!
-
-
+()
+()
 Reading... 05-19-2020.csv
-
-Original length:  152878
-Length after dropping NaNs:  152878
-Length after dropping duplicates:  152878
+()
+('Original length: ', 152878)
+('Length after dropping NaNs: ', 152878)
+('Length after dropping duplicates: ', 152878)
 05-19-2020.csv .. already clean!
-
+()
 05-19-2020.csv ..done!
-
-
+()
+()
 Reading... 05-20-2020.csv
-
-Original length:  142540
-Length after dropping NaNs:  142540
-Length after dropping duplicates:  142540
+()
+('Original length: ', 142540)
+('Length after dropping NaNs: ', 142540)
+('Length after dropping duplicates: ', 142540)
 05-20-2020.csv .. already clean!
-
+()
 05-20-2020.csv ..done!
-
-
+()
+()
 Reading... 05-21-2020.csv
-
-Original length:  135576
-Length after dropping NaNs:  135576
-Length after dropping duplicates:  135576
+()
+('Original length: ', 135576)
+('Length after dropping NaNs: ', 135576)
+('Length after dropping duplicates: ', 135576)
 05-21-2020.csv .. already clean!
-
+()
 05-21-2020.csv ..done!
-
-
+()
+()
 Reading... 05-22-2020.csv
-
-Original length:  113996
-Length after dropping NaNs:  113996
-Length after dropping duplicates:  113996
+()
+('Original length: ', 113996)
+('Length after dropping NaNs: ', 113996)
+('Length after dropping duplicates: ', 113996)
 05-22-2020.csv .. already clean!
-
+()
 05-22-2020.csv ..done!
-
-
+()
+()
 Reading... 05-23-2020.csv
-
-Original length:  85035
-Length after dropping NaNs:  85035
-Length after dropping duplicates:  85035
+()
+('Original length: ', 85035)
+('Length after dropping NaNs: ', 85035)
+('Length after dropping duplicates: ', 85035)
 05-23-2020.csv .. already clean!
-
+()
 05-23-2020.csv ..done!
-
-
+()
+()
 Reading... 05-24-2020.csv
-
-Original length:  83882
-Length after dropping NaNs:  83882
-Length after dropping duplicates:  83882
+()
+('Original length: ', 83882)
+('Length after dropping NaNs: ', 83882)
+('Length after dropping duplicates: ', 83882)
 05-24-2020.csv .. already clean!
-
+()
 05-24-2020.csv ..done!
-
-
+()
+()
 Reading... 05-25-2020.csv
-
-Original length:  92742
-Length after dropping NaNs:  92742
-Length after dropping duplicates:  92742
+()
+('Original length: ', 92742)
+('Length after dropping NaNs: ', 92742)
+('Length after dropping duplicates: ', 92742)
 05-25-2020.csv .. already clean!
-
+()
 05-25-2020.csv ..done!
-
-
+()
+()
 Reading... 05-26-2020.csv
-
-Original length:  108616
-Length after dropping NaNs:  108616
-Length after dropping duplicates:  108616
+()
+('Original length: ', 108616)
+('Length after dropping NaNs: ', 108616)
+('Length after dropping duplicates: ', 108616)
 05-26-2020.csv .. already clean!
-
+()
 05-26-2020.csv ..done!
-
-
+()
+()
 Reading... 05-27-2020.csv
-
-Original length:  129029
-Length after dropping NaNs:  129029
-Length after dropping duplicates:  129029
+()
+('Original length: ', 129029)
+('Length after dropping NaNs: ', 129029)
+('Length after dropping duplicates: ', 129029)
 05-27-2020.csv .. already clean!
-
+()
 05-27-2020.csv ..done!
-
-
+()
+()
 Reading... 05-28-2020.csv
-
-Original length:  131241
-Length after dropping NaNs:  131241
-Length after dropping duplicates:  131241
+()
+('Original length: ', 131241)
+('Length after dropping NaNs: ', 131241)
+('Length after dropping duplicates: ', 131241)
 05-28-2020.csv .. already clean!
-
+()
 05-28-2020.csv ..done!
-
-
+()
+()
 Reading... 05-29-2020.csv
-
-Original length:  110487
-Length after dropping NaNs:  110487
-Length after dropping duplicates:  110487
+()
+('Original length: ', 110487)
+('Length after dropping NaNs: ', 110487)
+('Length after dropping duplicates: ', 110487)
 05-29-2020.csv .. already clean!
-
+()
 05-29-2020.csv ..done!
-
-
+()
+()
 Reading... 05-30-2020.csv
-
-Original length:  78105
-Length after dropping NaNs:  78105
-Length after dropping duplicates:  78105
+()
+('Original length: ', 78105)
+('Length after dropping NaNs: ', 78105)
+('Length after dropping duplicates: ', 78105)
 05-30-2020.csv .. already clean!
-
+()
 05-30-2020.csv ..done!
-
-
+()
+()
 Reading... 05-31-2020.csv
-
-Original length:  74293
-Length after dropping NaNs:  74293
-Length after dropping duplicates:  74293
+()
+('Original length: ', 74293)
+('Length after dropping NaNs: ', 74293)
+('Length after dropping duplicates: ', 74293)
 05-31-2020.csv .. already clean!
-
+()
 05-31-2020.csv ..done!
-
-
+()
+()
 Reading... 06-01-2020.csv
-
-Original length:  94515
-Length after dropping NaNs:  94515
-Length after dropping duplicates:  94515
+()
+('Original length: ', 94515)
+('Length after dropping NaNs: ', 94515)
+('Length after dropping duplicates: ', 94515)
 06-01-2020.csv .. already clean!
-
+()
 06-01-2020.csv ..done!
-
-
+()
+()
 Reading... 06-02-2020.csv
-
-Original length:  89342
-Length after dropping NaNs:  89342
-Length after dropping duplicates:  89342
+()
+('Original length: ', 89342)
+('Length after dropping NaNs: ', 89342)
+('Length after dropping duplicates: ', 89342)
 06-02-2020.csv .. already clean!
-
+()
 06-02-2020.csv ..done!
-
-
+()
+()
 Reading... 06-03-2020.csv
-
-Original length:  97720
-Length after dropping NaNs:  97720
-Length after dropping duplicates:  97720
+()
+('Original length: ', 97720)
+('Length after dropping NaNs: ', 97720)
+('Length after dropping duplicates: ', 97720)
 06-03-2020.csv .. already clean!
-
+()
 06-03-2020.csv ..done!
-
-
+()
+()
 Reading... 06-04-2020.csv
-
-Original length:  84639
-Length after dropping NaNs:  84639
-Length after dropping duplicates:  84639
+()
+('Original length: ', 84639)
+('Length after dropping NaNs: ', 84639)
+('Length after dropping duplicates: ', 84639)
 06-04-2020.csv .. already clean!
-
+()
 06-04-2020.csv ..done!
-
-
+()
+()
 Reading... 06-05-2020.csv
-
-Original length:  82998
-Length after dropping NaNs:  82998
-Length after dropping duplicates:  82998
+()
+('Original length: ', 82998)
+('Length after dropping NaNs: ', 82998)
+('Length after dropping duplicates: ', 82998)
 06-05-2020.csv .. already clean!
-
+()
 06-05-2020.csv ..done!
-
-
+()
+()
 Reading... 06-06-2020.csv
-
-Original length:  63779
-Length after dropping NaNs:  63779
-Length after dropping duplicates:  63779
+()
+('Original length: ', 63779)
+('Length after dropping NaNs: ', 63779)
+('Length after dropping duplicates: ', 63779)
 06-06-2020.csv .. already clean!
-
+()
 06-06-2020.csv ..done!
-
-
+()
+()
 Reading... 06-07-2020.csv
-
-Original length:  61153
-Length after dropping NaNs:  61153
-Length after dropping duplicates:  61153
+()
+('Original length: ', 61153)
+('Length after dropping NaNs: ', 61153)
+('Length after dropping duplicates: ', 61153)
 06-07-2020.csv .. already clean!
-
+()
 06-07-2020.csv ..done!
-
-
+()
+()
 Reading... 06-08-2020.csv
-
-Original length:  94531
-Length after dropping NaNs:  94531
-Length after dropping duplicates:  94531
+()
+('Original length: ', 94531)
+('Length after dropping NaNs: ', 94531)
+('Length after dropping duplicates: ', 94531)
 06-08-2020.csv .. already clean!
-
+()
 06-08-2020.csv ..done!
-
-
+()
+()
 Reading... 06-09-2020.csv
-
-Original length:  94733
-Length after dropping NaNs:  94733
-Length after dropping duplicates:  94733
+()
+('Original length: ', 94733)
+('Length after dropping NaNs: ', 94733)
+('Length after dropping duplicates: ', 94733)
 06-09-2020.csv .. already clean!
-
+()
 06-09-2020.csv ..done!
-
-
+()
+()
 Reading... 06-10-2020.csv
-
-Original length:  97820
-Length after dropping NaNs:  97820
-Length after dropping duplicates:  97820
+()
+('Original length: ', 97820)
+('Length after dropping NaNs: ', 97820)
+('Length after dropping duplicates: ', 97820)
 06-10-2020.csv .. already clean!
-
+()
 06-10-2020.csv ..done!
-
-
+()
+()
 Reading... 06-11-2020.csv
-
-Original length:  98599
-Length after dropping NaNs:  98599
-Length after dropping duplicates:  98599
+()
+('Original length: ', 98599)
+('Length after dropping NaNs: ', 98599)
+('Length after dropping duplicates: ', 98599)
 06-11-2020.csv .. already clean!
-
+()
 06-11-2020.csv ..done!
-
-
+()
+()
 Reading... 06-12-2020.csv
-
-Original length:  93802
-Length after dropping NaNs:  93802
-Length after dropping duplicates:  93802
+()
+('Original length: ', 93802)
+('Length after dropping NaNs: ', 93802)
+('Length after dropping duplicates: ', 93802)
 06-12-2020.csv .. already clean!
-
+()
 06-12-2020.csv ..done!
-
-
+()
+()
 Reading... 06-13-2020.csv
-
-Original length:  66061
-Length after dropping NaNs:  66061
-Length after dropping duplicates:  66061
+()
+('Original length: ', 66061)
+('Length after dropping NaNs: ', 66061)
+('Length after dropping duplicates: ', 66061)
 06-13-2020.csv .. already clean!
-
+()
 06-13-2020.csv ..done!
-
-
+()
+()
 Reading... 06-14-2020.csv
-
-Original length:  56471
-Length after dropping NaNs:  56471
-Length after dropping duplicates:  56471
+()
+('Original length: ', 56471)
+('Length after dropping NaNs: ', 56471)
+('Length after dropping duplicates: ', 56471)
 06-14-2020.csv .. already clean!
-
+()
 06-14-2020.csv ..done!
-
-
+()
+()
 Reading... 06-15-2020.csv
-
-Original length:  91912
-Length after dropping NaNs:  91912
-Length after dropping duplicates:  91912
+()
+('Original length: ', 91912)
+('Length after dropping NaNs: ', 91912)
+('Length after dropping duplicates: ', 91912)
 06-15-2020.csv .. already clean!
-
+()
 06-15-2020.csv ..done!
-
-
+()
+()
 Reading... 06-16-2020.csv
-
-Original length:  99897
-Length after dropping NaNs:  99897
-Length after dropping duplicates:  99897
+()
+('Original length: ', 99897)
+('Length after dropping NaNs: ', 99897)
+('Length after dropping duplicates: ', 99897)
 06-16-2020.csv .. already clean!
-
+()
 06-16-2020.csv ..done!
-
-
+()
+()
 Reading... 06-17-2020.csv
-
-Original length:  99432
-Length after dropping NaNs:  99432
-Length after dropping duplicates:  99432
+()
+('Original length: ', 99432)
+('Length after dropping NaNs: ', 99432)
+('Length after dropping duplicates: ', 99432)
 06-17-2020.csv .. already clean!
-
+()
 06-17-2020.csv ..done!
-
-
+()
+()
 Reading... 06-18-2020.csv
-
-Original length:  91108
-Length after dropping NaNs:  91108
-Length after dropping duplicates:  91108
+()
+('Original length: ', 91108)
+('Length after dropping NaNs: ', 91108)
+('Length after dropping duplicates: ', 91108)
 06-18-2020.csv .. already clean!
-
+()
 06-18-2020.csv ..done!
-
-
+()
+()
+Reading... 06-19-2020.csv
+()
+('Original length: ', 87028)
+('Length after dropping NaNs: ', 87028)
+('Length after dropping duplicates: ', 87028)
+06-19-2020.csv .. already clean!
+()
+06-19-2020.csv ..done!
+()
+()
+Reading... 06-20-2020.csv
+()
+('Original length: ', 65311)
+('Length after dropping NaNs: ', 65311)
+('Length after dropping duplicates: ', 65311)
+06-20-2020.csv .. already clean!
+()
+06-20-2020.csv ..done!
+()
+()
+Reading... 06-21-2020.csv
+()
+('Original length: ', 56070)
+('Length after dropping NaNs: ', 56070)
+('Length after dropping duplicates: ', 56070)
+06-21-2020.csv .. already clean!
+()
+06-21-2020.csv ..done!
+()
+()
