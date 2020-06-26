@@ -538,3 +538,13 @@ Reading... 06-23-2020.csv
 06-23-2020.csv ..done!
 ()
 ()
+Reading... 06-24-2020.csv
+()
+('Original length: ', 97528)
+('Length after dropping NaNs: ', 97528)
+('Length after dropping duplicates: ', 97528)
+06-24-2020.csv .. already clean!
+()
+06-24-2020.csv ..done!
+()
+()
